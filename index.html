@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Code Editor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="items">
+            <p class="bg-gray"><i class="fa-brands fa-html5" style="color: #ff7600;"></i>HTML</p>
+            <textarea id="html" cols="30" rows="12" onkeyup="run()"></textarea>
+            </div>
+            <div class="items">
+            <p class="bg-gray"><i class="fa-brands fa-css3" style="color: #235fc7;"></i>CSS</p>
+            <textarea id="css" cols="30" rows="12" onkeyup="run()"></textarea>
+            </div>
+            <div class="items">
+            <p class="bg-gray"><i class="fa-brands fa-js" style="color: #d4ab16;"></i>JS</p>
+            <textarea id="js" cols="30" rows="12" onkeyup="run()"></textarea>
+            </div>
+        </div>
+        <div class="right">
+            <p class="bg-gray">Play</p>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2d5963493c.js" crossorigin="anonymous"></script>
+</body>
+</html>
